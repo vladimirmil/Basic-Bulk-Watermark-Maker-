@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="Basic Watermark Maker"
+run/main_scene="res://main.tscn"
+boot_splash/image="res://img/splashscreen.png"
+config/icon="res://img/ICON.PNG"
+config/windows_native_icon="res://icon.ico"
+
+[display]
+
+window/size/width=600
+window/size/height=500
+window/size/resizable=false
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_clear_color=Color( 0.137255, 0.137255, 0.137255, 1 )
+environment/default_environment="res://default_env.tres"
